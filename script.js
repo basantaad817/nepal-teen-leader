@@ -76,3 +76,5 @@ window.onload = ()=>{
         
     } 
 }
+
+// blogs
