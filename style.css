@@ -180,6 +180,44 @@ header{
   }
   /* home section completed */
 
+  /* about section starts */
+  .about .whole{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 2rem 0;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+    gap: 2rem;    
+}
+.about .whole .img-container{
+    flex: 1 1 40rem;
+    position: relative;
+}
+.about .whole .img-container img{
+    width: 100%;
+    height: 100%;
+    border: 1.5rem solid var(--white);
+    box-shadow: .5rem 1rem var(--shadow);
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.about .whole .discription{
+    flex: 1 1 40rem;
+}
+.about .whole .discription h3{
+    font-size: 3rem;
+    color: var(--secondary);
+}
+.about .whole .discription p{
+    font-size: 1.3rem;
+    padding: .5rem 0;
+    line-height: 1.5;
+    padding-top: 1rem;
+    color: var(--light);
+}
+
 
 
 
