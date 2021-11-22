@@ -944,6 +944,9 @@ header{
       background:#fff;
     }
 
+    .home .content h3{
+      padding-top: 3rem;
+    }
     .gallery .image{
         width: 100%;
         padding: 4px;
@@ -963,6 +966,13 @@ header{
   
     html{
       font-size: 50%;
+    }
+    header a {
+      font-size: 2rem;
+    }
+    .home .content h3{
+      padding-top: 3rem;
+      font-size: 4rem;
     }
     #contact-us {
         padding: 1.5rem;
