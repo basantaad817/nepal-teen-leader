@@ -20,14 +20,14 @@ totalImg = previewBox.querySelector(".total-img"),
 shadow = document.querySelector(".shadow");
 window.onload = ()=>{
     for (let i = 0; i < gallery.length; i++) {
-        totalImg.textContent = gallery.length; //passing total img length to totalImg variable
+        
         let newIndex = i; //passing i value to newIndex variable
         let clickedImgIndex; //creating new variable
         
         gallery[i].onclick = () =>{
             clickedImgIndex = i; //passing cliked image index to created variable (clickedImgIndex)
             function preview(){
-                currentImg.textContent = newIndex + 1; //passing current img index to currentImg varible with adding +1
+               
                 let imageURL = gallery[newIndex].querySelector("img").src; //getting user clicked img url
                 previewImg.src = imageURL; //passing user clicked img url in previewImg src
             }

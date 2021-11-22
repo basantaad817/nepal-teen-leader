@@ -318,12 +318,7 @@ header{
     font-size: 18px;
     font-weight: 400;
   }
-  .details .title p{
-    margin: 0 5px;
-  }
-  .details .title p.current-img{
-    font-weight: 500;
-  }
+
   .details .icon{
     color: var(--primary);
     font-size: 20px;
@@ -338,7 +333,7 @@ header{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: #fff;
+    color: var(--primary);
     font-size: 30px;
     cursor: pointer;
     height: 50px;
